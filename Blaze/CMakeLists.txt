@@ -8,7 +8,9 @@ set(CMAKE_COMPILE_WARNING_AS_ERROR ON)
 add_executable(${PROJECT_NAME})
 
 target_sources(${PROJECT_NAME} PRIVATE
-    Main.cpp)
+    Main.cpp
+    URL/URL.cpp
+    URL/Parser.cpp)
 
 target_link_libraries(${PROJECT_NAME}
         PRIVATE
